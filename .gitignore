@@ -1,0 +1,14 @@
+# Credentials — never commit
+.Renviron
+
+# Raw data downloads (large, reproducible via etl.R)
+data/raw/
+*.zip
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# shinyapps.io deployment metadata
+rsconnect/

@@ -1,0 +1,8 @@
+# Copy this file to .Renviron (same folder), fill in values from the Neon
+# dashboard (Connection Details), then restart R so it picks them up.
+# .Renviron is gitignored.
+PGHOST=your-project-name.aws.neon.tech
+PGDATABASE=neondb
+PGUSER=your_user
+PGPASSWORD=your_password
+PGPORT=5432

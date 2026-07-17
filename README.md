@@ -6,7 +6,7 @@ into a cloud PostgreSQL warehouse, and serves live metrics through an R Shiny ap
 
 🔗 **Live demo:** https://aspirou55.shinyapps.io/nas-delay-dashboard/
 
-Built with R · dplyr · DBI/RPostgres · PostgreSQL (Neon) · R Shiny · ggplot2 · pool
+Built with R · dplyr · DBI/RPostgres · PostgreSQL (Neon) · R Shiny · ggplot2 · pool · Python (pandas, EDA)
 
 ---
 

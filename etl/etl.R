@@ -105,7 +105,7 @@ validate_month <- function(df, year, month) {
   # Range check — ArrDelay within a plausible window, such as -500..10080 minutes (1 week).
   n_bad_range <- sum(df$ArrDelay < -500 | df$ArrDelay > 10080, na.rm = TRUE)
   if (n_bad_range > 0){
-    stop(paste0("Failed Range Check: ", n_bad_range, " rows have ArrDelay less than -120 min or greater than 3000 min"))
+    stop(paste0("Failed Range Check: ", n_bad_range, " rows have ArrDelay less than -500 min or greater than 10080 min"))
   }
   
   invisible(df)

@@ -55,6 +55,7 @@ R Shiny dashboard on shinyapps.io   (app/app.R + app/queries.R)
 | `app/app.R` | Shiny UI + server (reactivity, ggplot2 charts) |
 | `app/queries.R` | Parameterized SQL query functions (tested in isolation) |
 | `eda/` | Exploratory data audit — Jupyter notebook + findings report |
+| `DECISIONS.md` | Architectural decisions, their tradeoffs, and when the alternative would win |
 | `.Renviron.example` | Template for the database credentials (real `.Renviron` is gitignored) |
 
 ## Running it locally
